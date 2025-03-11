@@ -24,6 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+            <head>
+        <link rel="icon" href="https://res.cloudinary.com/dyikkz1ur/image/upload/v1741691956/kun/lg_rm0uem.png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
