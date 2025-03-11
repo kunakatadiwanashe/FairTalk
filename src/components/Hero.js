@@ -38,7 +38,7 @@ const Hero = () => {
             height={480} 
           />
           <p className="text-sm">11/03/2025, 11:06</p>
-          <p className="text-sm font-bold">Workers unite for a 'people's budget': Unions plan mass protests ahead of delayed Budget Speech</p>
+          <p className="text-sm font-bold">Workers unite for a &apos;people&apos;s budget&apos;: Unions plan mass protests ahead of delayed Budget Speech</p>
         </div>
         <div className="bg-gray-800 p-4 flex-none w-64">
           <Image 
@@ -49,7 +49,7 @@ const Hero = () => {
             height={480} 
           />
           <p className="text-sm">11/03/2025, 10:39</p>
-          <p className="text-sm font-bold">PLAYLIST: Have a good time with Nothemba Madumo on ‘Jazz and Beyond’</p>
+          <p className="text-sm font-bold">PLAYLIST: Have a good time with Nothemba Madumo on &apos;Jazz and Beyond&apos;</p>
         </div>
         <div className="bg-gray-800 p-4 flex-none w-64">
           <Image 
@@ -71,7 +71,7 @@ const Hero = () => {
             height={480} 
           />
           <p className="text-sm">11/03/2025, 09:49</p>
-          <p className="text-sm font-bold">‘Gastro surge season’ coming at this time of year - Professor Mignon McCulloch</p>
+          <p className="text-sm font-bold">&apos;Gastro surge season&apos; coming at this time of year - Professor Mignon McCulloch</p>
         </div>
       </div>
     </div>
