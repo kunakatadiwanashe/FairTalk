@@ -13,20 +13,20 @@ const Aside = () => {
           <div className="w-[30%] h-[10%]">
             <Image
               src="https://res.cloudinary.com/dyikkz1ur/image/upload/v1741687702/kun/log2_hxurlv.png"
-              alt=""
-              width={100} // Add appropriate width
-              height={100} // Add appropriate height
+              alt="Logo 2"
+              width={100}
+              height={100}
             />
           </div>
         </Link>
 
         <Link href="#">
-          <div className="w-30 h-10">
+          <div className="w-[30%] h-[10%]">
             <Image
               src="https://res.cloudinary.com/dyikkz1ur/image/upload/v1741687702/kun/log1_korrfp.png"
-              alt=""
-              width={100} // Add appropriate width
-              height={100} // Add appropriate height
+              alt="Logo 1"
+              width={100}
+              height={100}
             />
           </div>
         </Link>
