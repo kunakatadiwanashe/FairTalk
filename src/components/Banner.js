@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Banner = () => {
   return (
@@ -24,22 +25,46 @@ const Banner = () => {
             <div className="text-white text-lg font-bold mb-4">Listen Live</div>
             <div className="flex space-x-4 ">
               <div className="w-64 h-75 bg-blue-800 rounded-lg p-4">
-                <img src="https://cdn.pixabay.com/photo/2021/03/29/22/23/woman-6135442_640.jpg" alt="The Clement Manyathela Show" className="w-full h-40 object-cover rounded-lg mb-4 object-top" />
+                <Image 
+                  src="https://cdn.pixabay.com/photo/2021/03/29/22/23/woman-6135442_640.jpg" 
+                  alt="The Clement Manyathela Show" 
+                  width={256} 
+                  height={160} 
+                  className="w-full h-40 object-cover rounded-lg mb-4 object-top" 
+                />
                 <div className="text-white">The Clement Manyathela Show</div>
                 <div className="text-red-600">702</div>
               </div>
               <div className="w-64 h-75 bg-pink-500 rounded-lg p-4">
-                <img src="https://cdn.pixabay.com/photo/2021/03/29/22/23/woman-6135442_640.jpg" alt="Mo Flava on 947" className="w-full h-40 object-cover rounded-lg mb-4 object-top" />
+                <Image 
+                  src="https://cdn.pixabay.com/photo/2021/03/29/22/23/woman-6135442_640.jpg" 
+                  alt="Mo Flava on 947" 
+                  width={256} 
+                  height={160} 
+                  className="w-full h-40 object-cover rounded-lg mb-4 object-top" 
+                />
                 <div className="text-white">Mo Flava on 947</div>
                 <div className="text-pink-500">947</div>
               </div>
               <div className="w-64 h-75 bg-gray-700 rounded-lg p-4">
-                <img src="https://cdn.pixabay.com/photo/2021/03/29/22/23/woman-6135442_640.jpg" alt="Views and News with Clarence Ford" className="w-full h-40 object-cover rounded-lg mb-4 object-top" />
+                <Image 
+                  src="https://cdn.pixabay.com/photo/2021/03/29/22/23/woman-6135442_640.jpg" 
+                  alt="Views and News with Clarence Ford" 
+                  width={256} 
+                  height={160} 
+                  className="w-full h-40 object-cover rounded-lg mb-4 object-top" 
+                />
                 <div className="text-white">Views and News with Clarence Ford</div>
                 <div className="text-yellow-500">cape talk</div>
               </div>
               <div className="w-64 h-75 bg-red-600 rounded-lg p-4">
-                <img src="https://cdn.pixabay.com/photo/2021/03/29/22/23/woman-6135442_640.jpg" alt="Mid-Mornings with Tracey Lange" className="w-full h-40 object-cover rounded-lg mb-4 object-top" />
+                <Image 
+                  src="https://cdn.pixabay.com/photo/2021/03/29/22/23/woman-6135442_640.jpg" 
+                  alt="Mid-Mornings with Tracey Lange" 
+                  width={256} 
+                  height={160} 
+                  className="w-full h-40 object-cover rounded-lg mb-4 object-top" 
+                />
                 <div className="text-white">Mid-Mornings with Tracey Lange</div>
                 <div className="text-red-600">kfm</div>
               </div>
